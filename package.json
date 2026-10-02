@@ -1,16 +1,16 @@
 {
   "name": "bullmq-board-docker",
-  "version": "6.9.6",
+  "version": "9.10.2",
   "description": "Docker image for bull-board package",
   "main": "index.js",
   "scripts": {
     "serve": "node index.js"
   },
   "dependencies": {
-    "@bull-board/api": "6.9.6",
-    "@bull-board/fastify": "6.9.6",
+    "@bull-board/api": "9.10.2",
+    "@bull-board/fastify": "9.10.2",
     "@redis/client": "^5.1.1",
-    "bullmq": "^5.53.0",
+    "bullmq": "^5.81.5",
     "fastify": "^5.3.3"
   }
 }
